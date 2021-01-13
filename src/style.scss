@@ -2,6 +2,9 @@
 
 @import './styles/reset.scss';
 @import './styles/page1.scss';
+@import './styles/page2.scss';
+@import './styles/page3.scss';
+@import './styles/page4.scss';
 
 body {
     display: flex;
@@ -85,12 +88,13 @@ body {
 
         &__count {
             position: absolute;
-            display: flex;
+            display: none;
             align-items: center;
             bottom: 0;
             color: white;
             margin-left: 10px;
             font-weight: 300;
+            margin-bottom: -10px;
 
             &__date {
                 display: flex;
@@ -118,4 +122,8 @@ body {
             
         }
     }
+}
+
+.visible {
+    display: flex;
 }

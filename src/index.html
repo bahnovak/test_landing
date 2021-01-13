@@ -26,15 +26,88 @@
                 <img src="./img/background_content.jpg" alt="">
             </div>
 
-            <div class="main__contain__count">
+            <div class="main__contain__count visible">
                 <div class="main__contain__count__date"><p>23.06.2019</p></div>
                 <div class="main__contain__count__text"><p>Обработанно заявок: <span class="main__contain__count__number">984</span></p></div>
             </div>
             
-            <div class="main__contain__page1">
+            <div class="main__contain__page1 visible">
                 <h1 class="main__contain__page1__title">Подбор Каско on-line</h1>
                 <p class="main__contain__page1__description">Ответьте на <span> 4 вопроса </span> и наш сервис подберет для Вас <br>
                     самое выгодное предложение</p>
+                <h2 class="main__contain__page1__auto">1. Марска вашего авто</h2>
+                <div class="main__contain__page1__wrap">
+                    <select name="auto" id="" class="main__contain__page1__select">
+                        <option value="">Renault</option>
+                        <option value="">BMW</option>
+                        <option value="">Mercedes</option>
+                    </select>
+                </div>
+                <div class="main__contain__page1__wrap">
+                    <button class="main__contain__page1__button">
+                        РАССЧИТАТЬ
+                    </button>
+                </div>
+                
+                <div class="main__contain__page1__logos">
+                    <img src="./img/logo_p1_1.png" alt="">
+                    <img src="./img/logo_p1_2.png" alt="">
+                    <img src="./img/logo_p1_3.png" alt="">
+                    <img src="./img/logo_p1_4.png" alt="">
+                    <img src="./img/logo_p1_5.png" alt="">
+                    <img src="./img/logo_p1_6.png" alt="">
+                </div>
+            </div>
+            <div class="main__contain__page2">
+                <h1 class="main__contain__page2__title">2. Год выпуска автомобиля</h1>
+                <div class="main__contain__page2__choose-year">
+                    <span class="main__contain__page2__choose-year__minus">-</span>
+                    <div class="main__contain__page2__choose-year__years">2011</div>
+                    <span class="main__contain__page2__choose-year__plus">+</span>
+                </div>
+                <button class="main__contain__page2__button">ДАЛЕЕ</button>
+            </div>
+            <div class="main__contain__page3">
+                <h1 class="main__contain__page3__title">Данные для подбора КАСКО:</h1>
+                <div class="main__contain__page3__description">
+                    <ul class="main__contain__page3__description__list">
+                        <li type="disc">Марка вашего авто: <span class="main__contain__page3__description__list__answer">АУДИ</span></li>
+                        <li type="disc">Год выпуска автомобиля: <span class="main__contain__page3__description__list__answer">2015</span></li>
+                        <li type="disc">Ориентировочная стоимость: <span class="main__contain__page3__description__list__answer">12 000$</span></li>
+                        <li type="disc">Стаж вождения: <span class="main__contain__page3__description__list__answer">5 лет</span></li>
+                        <li type="disc">Страховка от угона: <span class="main__contain__page3__description__list__answer">да</span></li>
+                        <li type="disc">Количество водителей: <span class="main__contain__page3__description__list__answer">мультидрайв</span></li>
+                        <li type="disc">Действие КАСКО за границей: <span class="main__contain__page3__description__list__answer">да</span></li>
+                    </ul>
+                    <div class="main__contain__page3__description__result">
+                        <h2 class="main__contain__page3__description__result__details">Подробрано:</h2>
+                        <p class="main__contain__page3__description__result__count-offer">
+                            3 оптимальных предложения
+                        </p>
+                        <div class="main__contain__page3__description__result__logos">
+                            <img src="./img/logo_p1_2.png" alt="">
+                            <img src="./img/logo_p1_1.png" alt="">
+                            <img src="./img/logo_p1_3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="main__contain__page3__form">
+                    <div class="main__contain__page3__form__name">
+                        <p class="main__contain__page3__form__name__text">Как к вам обращаться?</p>
+                        <input type="text" pattern="[a-zA-Z]" placeholder="Имя" class="main__contain__page3__form__name__input">
+                    </div>
+                    <div class="main__contain__page3__form__number">
+                        <p class="main__contain__page3__form__number__text">Телефон для расчета</p>
+                        <input type="tel" pattern="+[0-9]{3} [0-9]{2} [0-9]{3} [0-9]{2} [0-9]{3}" placeholder="+375 __ ___ __ ___" class="main__contain__page3__form__number__input">
+                    </div>
+                    <button class="main__contain__page3__form__button">Получить расчет</button>
+                </div>
+            </div>
+            <div class="main__contain__page4">
+                <div class="main__contain__page4__wrap">
+                    <p class="main__contain__page4__wrap__thx">Спасибо!</p>
+                    <p class="main__contain__page4__wrap__call">Ваша заявка отправлена, наш менеждер свяжется с Вами </p>
+                </div>
             </div>
         </div>
     </main>
